@@ -1,4 +1,14 @@
-import teste from '../assets/eu.jpg';
+import imageAuthor from '../assets/eu.jpg';
+import imageProjectSuckMyChic from '../assets/suck-my-chic.jpg';
+import imageProjectCoobMais from '../assets/coob-mais.jpeg';
+import imageProjectJuno from '../assets/juno.jpg';
+import imageProjectOpa from '../assets/opa.jpg';
+import imageProjectSignup from '../assets/signup.jpg';
+import imageProjectSpotify from '../assets/spotify.jpg';
+import imageProjectApparel from '../assets/apparel.jpg';
+import imageProjectArticle from '../assets/article.jpg';
+import imageProjectClipboard from '../assets/clipboard.jpg';
+
 
 export default function Home() {
   return (
@@ -15,8 +25,8 @@ export default function Home() {
 
       <div className='min-h-screen bg-slate-200 flex items-center justify-center p-10'>
         <div className='w-full max-w-[1400px] grid grid-cols-2'>
-          <div className='flex justify-center'>
-            <img src={teste} alt="" />
+          <div className='flex items-center'>
+            <img src={imageAuthor} alt="Foto do Author do Site, Bruno Netto" />
           </div>
 
           <div className='flex justify-center flex-col pl-8 pr-8'>
@@ -28,23 +38,75 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='min-h-screen bg-slate-200 flex items-center justify-center p-10  border border-slate-900'>
-        <div className='w-full max-w-[1400px] border border-slate-900'>
-          <h2 className='text-6xl p-5 text-bold uppercase text-white bg-blue-700'>Alguns trabalhos</h2>
+      <div className='min-h-screen bg-slate-200 flex items-center justify-center p-10'>
+        <div className='w-full max-w-[1400px]'>
+          <div className='flex justify-center'>
+            <h2 className='text-6xl p-5 mb-10 text-bold uppercase text-white inline-block bg-blue-700'>Alguns trabalhos</h2>
+          </div>
 
-          <div className="grid grid-cols-3 grid-rows-3 text-transparent">
-            <div className="bg-blur border border-slate-900 flex justify-center items-center hover:text-red-600 hover:scale-150">
-              <p>Teste</p>
-            </div>
+          <div className="grid grid-cols-3 grid-rows-3 gap-2">
+            <a href='https://suckmychic.com/' target='_blank' className="relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10">
+              <img src={imageProjectSuckMyChic} alt="" className='w-full h-full' />
+              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
+                <p className='text-4xl text-bold text-center'>Suck My Chic</p>  
+              </div>
+            </a>
 
-            <div className="border border-slate-900"></div>
-            <div className="border border-slate-900"></div>
-            <div className="border border-slate-900"></div>
-            <div className="border border-slate-900"></div>
-            <div className="border border-slate-900"></div>
-            <div className="border border-slate-900"></div>
-            <div className="border border-slate-900"></div>
-            <div className="border border-slate-900"></div>
+            <a href='https://coobrastur.com/coobmaisbus/' target='_blank' className="relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10">
+              <img src={imageProjectCoobMais} alt="" className='w-full h-full' />
+              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
+                <p className='text-4xl text-bold text-center'>Coob+</p>  
+              </div>
+            </a>
+
+            <a href='https://nettobruno.github.io/cloneJuno/' target='_blank' className="relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10">
+              <img src={imageProjectJuno} alt="" className='w-full h-full' />
+              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
+                <p className='text-4xl text-bold text-center'>Clone Site Juno</p>  
+              </div>
+            </a>
+           
+            <a href='https://nettobruno.github.io/opa/' target='_blank' className="relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10">
+              <img src={imageProjectOpa} alt="" className='w-full h-full' />
+              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
+                <p className='text-4xl text-bold text-center'>Projeto Opa</p>  
+              </div>
+            </a>
+
+            <a href='https://nettobruno.github.io/clone-signup/' target='_blank' className="relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10">
+              <img src={imageProjectSignup} alt="" className='w-full h-full' />
+              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
+                <p className='text-4xl text-bold text-center'>Front Challenge Signup</p>  
+              </div>
+            </a>
+
+            <a href='https://nettobruno.github.io/clone-spotify/' target='_blank' className="relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10">
+              <img src={imageProjectSpotify} alt="" className='w-full h-full' />
+              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
+                <p className='text-4xl text-bold text-center'>Clone Spotify</p>  
+              </div>
+            </a>
+
+            <a href='https://nettobruno.github.io/clone-apparel/' target='_blank' className="relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10">
+              <img src={imageProjectApparel} alt="" className='w-full h-full' />
+              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
+                <p className='text-4xl text-bold text-center'>Front Challenge Apparel</p>  
+              </div>
+            </a>
+
+            <a href='https://nettobruno.github.io/article-preview/' target='_blank' className="relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10">
+              <img src={imageProjectArticle} alt="" className='w-full h-full' />
+              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
+                <p className='text-4xl text-bold text-center'>Front Challenge Article</p>  
+              </div>
+            </a>
+
+            <a href='https://nettobruno.github.io/clone-clipboard/' target='_blank' className="relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10">
+              <img src={imageProjectClipboard} alt="" className='w-full h-full' />
+              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
+                <p className='text-4xl text-bold text-center'>Front Challenge Clipboard</p>  
+              </div>
+            </a>
           </div>
         </div>
       </div>

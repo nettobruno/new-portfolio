@@ -15,6 +15,9 @@ module.exports = {
         blue: {
           700: '#5E00FF',
         },
+        blackOpacity: {
+          800: 'rgba(0, 0, 0, .8)'
+        }
       },
     },
   },
