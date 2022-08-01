@@ -19,13 +19,17 @@ import imageProjectApparel from '../assets/apparel.jpg'
 import imageProjectArticle from '../assets/article.jpg'
 import imageProjectClipboard from '../assets/clipboard.jpg'
 
+import ProjectItem from '../components/ProjectItem'
+
 export default function Home() {
   return (
     <>
       <div className='min-h-screen bg-blur bg-cover bg-center bg-no-repeat flex items-center justify-center p-2 md:p-5 lg:p-10'>
         <div className='w-full max-w-[1400px]'>
           <h3 className='text-4xl md:text-6xl lg:text-7xl text-white -ml-1'>Meu nome é</h3>
-          <h1 className='text-6xl md:text-8xl lg:text-9xl text-white font-bold -ml-1 md:-ml-[6px] mb-6'>Bruno Netto.</h1>
+          <h1 className='text-6xl md:text-8xl lg:text-9xl text-white font-bold -ml-1 md:-ml-[6px] mb-6'>
+            Bruno Netto.
+          </h1>
           <h2 className='text-4xl md:text-6xl lg:text-7xl text-white'>
             sou desenvolvedor <span className='bg-blue-700 font-bold px-2'>Front End</span>
           </h2>
@@ -39,7 +43,9 @@ export default function Home() {
           </div>
 
           <div className='flex justify-center flex-col px-1 lg:px-8'>
-            <h3 className='text-2xl lg:text-5xl text-center lg:text-left font-bold uppercase text-gray-600 mb-6'>Seja bem vindo(a)</h3>
+            <h3 className='text-2xl lg:text-5xl text-center lg:text-left font-bold uppercase text-gray-600 mb-6'>
+              Seja bem vindo(a)
+            </h3>
             <p className='text-2xl lg:text-3xl text-center lg:text-left leading-9 text-gray-500 mb-5'>
               Fico feliz que tenha chegado até minha página.
             </p>
@@ -64,104 +70,60 @@ export default function Home() {
           </div>
 
           <div className='grid grid-cols-3 grid-rows-3 gap-2'>
-            <a
-              href='https://suckmychic.com/'
-              target='_blank'
-              className='relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
-            >
-              <img src={imageProjectSuckMyChic} alt='' className='w-full h-full' />
-              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
-                <p className='text-4xl text-bold text-center'>Suck My Chic</p>
-              </div>
-            </a>
-
-            <a
-              href='https://coobrastur.com/coobmaisbus/'
-              target='_blank'
-              className='relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
-            >
-              <img src={imageProjectCoobMais} alt='' className='w-full h-full' />
-              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
-                <p className='text-4xl text-bold text-center'>Coob+</p>
-              </div>
-            </a>
-
-            <a
-              href='https://nettobruno.github.io/cloneJuno/'
-              target='_blank'
-              className='relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
-            >
-              <img src={imageProjectJuno} alt='' className='w-full h-full' />
-              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
-                <p className='text-4xl text-bold text-center'>Clone Site Juno</p>
-              </div>
-            </a>
-
-            <a
-              href='https://nettobruno.github.io/opa/'
-              target='_blank'
-              className='relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
-            >
-              <img src={imageProjectOpa} alt='' className='w-full h-full' />
-              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
-                <p className='text-4xl text-bold text-center'>Projeto Opa</p>
-              </div>
-            </a>
-
-            <a
-              href='https://nettobruno.github.io/clone-signup/'
-              target='_blank'
-              className='relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
-            >
-              <img src={imageProjectSignup} alt='' className='w-full h-full' />
-              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
-                <p className='text-4xl text-bold text-center'>Front Challenge Signup</p>
-              </div>
-            </a>
-
-            <a
-              href='https://nettobruno.github.io/clone-spotify/'
-              target='_blank'
-              className='relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
-            >
-              <img src={imageProjectSpotify} alt='' className='w-full h-full' />
-              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
-                <p className='text-4xl text-bold text-center'>Clone Spotify</p>
-              </div>
-            </a>
-
-            <a
-              href='https://nettobruno.github.io/clone-apparel/'
-              target='_blank'
-              className='relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
-            >
-              <img src={imageProjectApparel} alt='' className='w-full h-full' />
-              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
-                <p className='text-4xl text-bold text-center'>Front Challenge Apparel</p>
-              </div>
-            </a>
-
-            <a
-              href='https://nettobruno.github.io/article-preview/'
-              target='_blank'
-              className='relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
-            >
-              <img src={imageProjectArticle} alt='' className='w-full h-full' />
-              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
-                <p className='text-4xl text-bold text-center'>Front Challenge Article</p>
-              </div>
-            </a>
-
-            <a
-              href='https://nettobruno.github.io/clone-clipboard/'
-              target='_blank'
-              className='relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
-            >
-              <img src={imageProjectClipboard} alt='' className='w-full h-full' />
-              <div className='absolute top-0 w-full h-full flex justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
-                <p className='text-4xl text-bold text-center'>Front Challenge Clipboard</p>
-              </div>
-            </a>
+            <ProjectItem
+              url='https://suckmychic.com/'
+              image={imageProjectSuckMyChic}
+              name='Suck My Chic'
+              links={false}
+            />
+            <ProjectItem
+              url='https://coobrastur.com/coobmaisbus/'
+              image={imageProjectCoobMais}
+              name='Coob+'
+              links={false}
+            />
+            <ProjectItem
+              url='https://nettobruno.github.io/cloneJuno/'
+              image={imageProjectJuno}
+              name='Clone Site Juno'
+              links={false}
+            />
+            <ProjectItem
+              url='https://nettobruno.github.io/opa/'
+              image={imageProjectOpa}
+              name='Projeto Opa'
+              links={false}
+            />
+            <ProjectItem
+              url='https://nettobruno.github.io/clone-signup/'
+              image={imageProjectSignup}
+              name='Front Challenge Signup'
+              links={false}
+            />
+            <ProjectItem
+              url='https://nettobruno.github.io/clone-spotify/'
+              image={imageProjectSpotify}
+              name='Clone Spotify'
+              links={false}
+            />
+            <ProjectItem
+              url='https://nettobruno.github.io/clone-apparel/'
+              image={imageProjectApparel}
+              name='Front Challenge Apparel'
+              links={false}
+            />
+            <ProjectItem
+              url='https://nettobruno.github.io/article-preview/'
+              image={imageProjectArticle}
+              name='Front Challenge Article'
+              links={false}
+            />
+            <ProjectItem
+              url='https://nettobruno.github.io/clone-clipboard/'
+              image={imageProjectClipboard}
+              name='Front Challenge Clipboard'
+              links={false}
+            />
           </div>
         </div>
       </div>
