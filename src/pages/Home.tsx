@@ -1,4 +1,5 @@
 import {
+  ArrowRight,
   EnvelopeSimple,
   PhoneCall,
   LinkedinLogo,
@@ -20,6 +21,7 @@ import imageProjectArticle from '../assets/article.jpg'
 import imageProjectClipboard from '../assets/clipboard.jpg'
 
 import ProjectItem from '../components/ProjectItem'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -124,6 +126,13 @@ export default function Home() {
               name='Front Challenge Clipboard'
               links={false}
             />
+          </div>
+
+          <div className='flex justify-start items-center'>
+            <Link to='/projects' className='flex items-center text-2xl text-blue-700 font-bold mt-10 hover:underline'>
+              Veja mais projetos
+              <ArrowRight size={32} color="#5e00ff" className="ml-2" />
+            </Link>
           </div>
         </div>
       </div>
