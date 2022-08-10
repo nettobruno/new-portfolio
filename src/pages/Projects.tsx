@@ -153,11 +153,11 @@ export default function Projects() {
               githubUrl='https://github.com/nettobruno/clone-ping'
             />
             <ProjectItem
-              url='https://github.com/nettobruno/puraAgua'
+              url='https://nettobruno.github.io/puraAgua/'
               image={imageProjectPuraAgua}
               name='Pura Água'
               links={true}
-              githubUrl='https://nettobruno.github.io/puraAgua/'
+              githubUrl='https://github.com/nettobruno/puraAgua'
             />
           </div>
         </div>
