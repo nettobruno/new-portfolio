@@ -26,7 +26,7 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <>
-      <div className='min-h-screen bg-blur bg-cover bg-center bg-no-repeat flex items-center justify-center p-2 md:p-5 lg:p-10'>
+      <div className='min-h-screen bg-[url("../assets/home.jpg")] bg-cover bg-center bg-no-repeat flex items-center justify-center p-2 md:p-5 lg:p-10'>
         <div className='w-full max-w-[1600px]'>
           <h3 className='text-4xl md:text-6xl lg:text-7xl text-white -ml-1'>Meu nome é</h3>
           <h1 className='text-6xl md:text-8xl lg:text-9xl text-white font-bold -ml-1 md:-ml-[6px] mb-6'>
