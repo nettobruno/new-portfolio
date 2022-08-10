@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <div className='min-h-screen bg-blur bg-cover bg-center bg-no-repeat flex items-center justify-center p-2 md:p-5 lg:p-10'>
-        <div className='w-full max-w-[1400px]'>
+        <div className='w-full max-w-[1600px]'>
           <h3 className='text-4xl md:text-6xl lg:text-7xl text-white -ml-1'>Meu nome é</h3>
           <h1 className='text-6xl md:text-8xl lg:text-9xl text-white font-bold -ml-1 md:-ml-[6px] mb-6'>
             Bruno Netto.
@@ -39,13 +39,13 @@ export default function Home() {
       </div>
 
       <div className='min-h-screen bg-slate-200 flex items-center justify-center p-2 md:p-5 lg:p-10'>
-        <div className='w-full max-w-[1400px] grid grid-cols-1 lg:grid-cols-2'>
+        <div className='w-full max-w-[1600px] grid grid-cols-1 lg:grid-cols-2'>
           <div className='flex items-center justify-center mb-10 lg:justify-start'>
             <img src={imageAuthor} alt='Foto do Author do Site, Bruno Netto' />
           </div>
 
           <div className='flex justify-center flex-col px-1 lg:px-8'>
-            <h3 className='text-2xl lg:text-5xl text-center lg:text-left font-bold uppercase text-gray-600 mb-6'>
+            <h3 className='text-3xl lg:text-5xl text-center lg:text-left font-bold uppercase text-gray-600 mb-6'>
               Seja bem vindo(a)
             </h3>
             <p className='text-2xl lg:text-3xl text-center lg:text-left leading-9 text-gray-500 mb-5'>
@@ -64,9 +64,9 @@ export default function Home() {
       </div>
 
       <div className='min-h-screen bg-slate-200 flex items-center justify-center p-2 md:p-5 lg:p-10'>
-        <div className='w-full max-w-[1400px]'>
+        <div className='w-full max-w-[1600px]'>
           <div className='flex justify-center'>
-            <h2 className='w-full lg:w-fit text-center text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-blue-700'>
+            <h2 className='w-full lg:w-fit text-center text-3xl md:text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-blue-700'>
               Alguns trabalhos
             </h2>
           </div>
@@ -129,7 +129,7 @@ export default function Home() {
           </div>
 
           <div className='flex justify-start items-center'>
-            <Link to='/projects' className='flex items-center text-2xl text-blue-700 font-bold mt-2 lg:mt-10 mb-10 md:mb-0 hover:underline'>
+            <Link to='/projects' className='flex items-center text-2xl text-blue-700 font-bold mt-4 lg:mt-10 mb-10 md:mb-0 hover:underline'>
               Veja mais projetos
               <ArrowRight size={32} color="#5e00ff" className="ml-2" />
             </Link>
@@ -138,14 +138,14 @@ export default function Home() {
       </div>
 
       <div className='bg-slate-200 flex items-center justify-center p-2 md:p-5 lg:p-10'>
-        <div className='w-full max-w-[1400px]'>
+        <div className='w-full max-w-[1600px]'>
           <div className='flex justify-center'>
-            <h2 className='w-full lg:w-fit text-center text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-blue-700'>
+            <h2 className='w-full lg:w-fit text-center text-3xl md:text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-blue-700'>
               Contato
             </h2>
           </div>
 
-          <p className='text-3xl leading-9 text-gray-500 mb-14'>
+          <p className='text-2xl md:text-3xl leading-9 text-gray-500 mb-14'>
             Que bom que chegou até aqui e conheceu um pouco sobre mim, mas infelizmente eu ainda não
             te conheço e adoraria que isso acontecesse. Abaixo verá algumas forma de me encontrar,
             sinta-se a vontade para entrar em contato.
@@ -154,12 +154,12 @@ export default function Home() {
           <div className='flex flex-col items-start md:flex-row md:items-center md:justify-between'>
             <div className='flex items-center justify-center mb-2 md:mb-0'>
               <EnvelopeSimple size={34} color='#5e00ff' />
-              <p className='text-3xl text-gray-500 ml-2'>brunonettomac@outlook.com</p>
+              <p className='text-2xl md:text-3xl text-gray-500 ml-2'>brunonettomac@outlook.com</p>
             </div>
 
             <div className='flex items-center justify-center'>
               <PhoneCall size={34} color='#5e00ff' />
-              <p className='text-3xl text-gray-500 ml-2'>(41) 99269-0420</p>
+              <p className='text-2xl md:text-3xl text-gray-500 ml-2'>(41) 99269-0420</p>
             </div>
           </div>
 
