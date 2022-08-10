@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='min-h-screen bg-slate-200 flex items-center justify-center p-2 md:p-5 lg:p-10'>
+      <div className='min-h-screen bg-white flex items-center justify-center p-2 md:p-5 lg:p-10'>
         <div className='w-full max-w-[1600px]'>
           <div className='flex justify-center'>
             <h2 className='w-full lg:w-fit text-center text-3xl md:text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-blue-700'>
