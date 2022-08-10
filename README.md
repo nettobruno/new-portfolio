@@ -21,9 +21,9 @@
 
 <h2>✅ Features</h2>
 
-- [ ] Página principal
-- [ ] Página de projetos
-- [ ] Páginas responsivas
+- [x] Página principal
+- [x] Página de projetos
+- [x] Páginas responsivas
 - [ ] Formulário para contato
 - [ ] Upload do curriculo
 
