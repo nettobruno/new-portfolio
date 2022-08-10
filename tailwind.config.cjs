@@ -5,8 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      safelist: [
+        'blur'
+      ],
       backgroundImage: {
-        blur: 'url(./src/assets/background2.jpg)'
+        'blur': "url('./src/assets/home.jpg')"
       },
       fontFamily: {
         sans: 'Montserrat, sans-serif'
