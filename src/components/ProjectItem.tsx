@@ -13,7 +13,7 @@ export default function ProjectItem(props: Props) {
     <a
       href={props.url}
       target='_blank'
-      className='group relative transition-all hover:scale-125 hover:bg-blackOpacity-800 hover:z-10'
+      className='group relative transition duration-500 ease-in-out hover:scale-[1.1] hover:bg-blackOpacity-800 hover:z-10'
     >
       <img src={props.image} alt='' className='w-full h-full' />
       <div className='absolute top-0 w-full h-full flex flex-col justify-center items-center text-transparent p-5 hover:bg-blackOpacity-800 hover:text-white'>
@@ -23,7 +23,7 @@ export default function ProjectItem(props: Props) {
             <a
               href={props.githubUrl}
               target='_blank'
-              className='bg-white rounded-full p-2 m-4 transition-all hover:scale-125'
+              className='bg-white rounded-full p-2 m-4 transition duration-500 ease-in-out hover:scale-125'
             >
               <GithubLogo size={34} color='#5e00ff' />
             </a>
@@ -31,7 +31,7 @@ export default function ProjectItem(props: Props) {
             <a
               href={props.url}
               target='_blank'
-              className='bg-white rounded-full p-2 m-4 transition-all hover:scale-125'
+              className='bg-white rounded-full p-2 m-4 transition duration-500 ease-in-out hover:scale-125'
             >
               <Link size={34} color='#5e00ff' />
             </a>
