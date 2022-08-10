@@ -56,7 +56,7 @@ export default function Home() {
               final de 2019 me formei no curso técnico de Informática para Internet, foi lá que
               entendi o quanto a tecnologia pode ajudar e melhorar a vida das pessoas.
             </p>
-            <p className='text-2xl lg:text-3xl text-center lg:text-left leading-9 text-gray-500'>
+            <p className='text-2xl lg:text-3xl text-center lg:text-left leading-9 text-gray-500 mb-20 md:mb-10'>
               Desde então passo os meus dias estudando para que tenha um bom conhecimento.
             </p>
           </div>
@@ -66,12 +66,12 @@ export default function Home() {
       <div className='min-h-screen bg-slate-200 flex items-center justify-center p-2 md:p-5 lg:p-10'>
         <div className='w-full max-w-[1400px]'>
           <div className='flex justify-center'>
-            <h2 className='text-5xl py-2 px-20 mb-10 text-bold uppercase text-white inline-block bg-blue-700'>
+            <h2 className='w-full lg:w-fit text-center text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-blue-700'>
               Alguns trabalhos
             </h2>
           </div>
 
-          <div className='grid grid-cols-3 grid-rows-3 gap-2'>
+          <div className='grid grid-cols-1 grid-rows-9 md:grid-cols-2 md:grid-rows-5 lg:grid-cols-3 lg:grid-rows-3 gap-2'>
             <ProjectItem
               url='https://suckmychic.com/'
               image={imageProjectSuckMyChic}
@@ -129,7 +129,7 @@ export default function Home() {
           </div>
 
           <div className='flex justify-start items-center'>
-            <Link to='/projects' className='flex items-center text-2xl text-blue-700 font-bold mt-10 hover:underline'>
+            <Link to='/projects' className='flex items-center text-2xl text-blue-700 font-bold mt-2 lg:mt-10 mb-10 md:mb-0 hover:underline'>
               Veja mais projetos
               <ArrowRight size={32} color="#5e00ff" className="ml-2" />
             </Link>
@@ -140,7 +140,7 @@ export default function Home() {
       <div className='bg-slate-200 flex items-center justify-center p-2 md:p-5 lg:p-10'>
         <div className='w-full max-w-[1400px]'>
           <div className='flex justify-center'>
-            <h2 className='text-5xl py-2 px-20 mb-10 text-bold uppercase text-white inline-block bg-blue-700'>
+            <h2 className='w-full lg:w-fit text-center text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-blue-700'>
               Contato
             </h2>
           </div>
@@ -151,8 +151,8 @@ export default function Home() {
             sinta-se a vontade para entrar em contato.
           </p>
 
-          <div className='flex items-center justify-between'>
-            <div className='flex items-center justify-center'>
+          <div className='flex flex-col items-start md:flex-row md:items-center md:justify-between'>
+            <div className='flex items-center justify-center mb-2 md:mb-0'>
               <EnvelopeSimple size={34} color='#5e00ff' />
               <p className='text-3xl text-gray-500 ml-2'>brunonettomac@outlook.com</p>
             </div>
