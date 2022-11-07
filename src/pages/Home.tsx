@@ -26,14 +26,14 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <>
-      <div className='min-h-screen bg-[url("../assets/home.jpg")] bg-cover bg-center bg-no-repeat flex items-center justify-center p-2 md:p-5 lg:p-10'>
+      <div className='min-h-screen bg-[url("../assets/fundo.jpg")] bg-cover bg-center bg-no-repeat flex items-center justify-center p-2 md:p-5 lg:p-10'>
         <div className='w-full max-w-[1600px]'>
           <h3 className='text-4xl md:text-6xl lg:text-7xl text-white -ml-1'>Meu nome é</h3>
           <h1 className='text-6xl md:text-8xl lg:text-9xl text-white font-bold -ml-1 md:-ml-[6px] mb-6'>
             Bruno Netto.
           </h1>
           <h2 className='text-4xl md:text-6xl lg:text-7xl text-white'>
-            sou desenvolvedor <span className='bg-blue-700 font-bold px-2'>Front End</span>
+            sou desenvolvedor <span className='bg-purple-700 font-bold px-2'>Front End</span>
           </h2>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default function Home() {
       <div className='min-h-screen bg-white flex items-center justify-center p-2 md:p-5 lg:p-10'>
         <div className='w-full max-w-[1600px]'>
           <div className='flex justify-center'>
-            <h2 className='w-full lg:w-fit text-center text-3xl md:text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-blue-700'>
+            <h2 className='w-full lg:w-fit text-center text-3xl md:text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-purple-700'>
               Alguns trabalhos
             </h2>
           </div>
@@ -129,9 +129,9 @@ export default function Home() {
           </div>
 
           <div className='flex justify-start items-center'>
-            <Link to='/projects' className='flex items-center text-2xl text-blue-700 font-bold mt-4 lg:mt-10 mb-10 md:mb-0 hover:underline'>
+            <Link to='/projects' className='flex items-center text-2xl text-purple-700 font-bold mt-4 lg:mt-10 mb-10 md:mb-0 hover:underline'>
               Veja mais projetos
-              <ArrowRight size={32} color="#5e00ff" className="ml-2" />
+              <ArrowRight size={32} color="#7732E6" className="ml-2" />
             </Link>
           </div>
         </div>
@@ -140,7 +140,7 @@ export default function Home() {
       <div className='bg-slate-200 flex items-center justify-center p-2 md:p-5 lg:p-10'>
         <div className='w-full max-w-[1600px]'>
           <div className='flex justify-center'>
-            <h2 className='w-full lg:w-fit text-center text-3xl md:text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-blue-700'>
+            <h2 className='w-full lg:w-fit text-center text-3xl md:text-5xl py-2 px-20 mb-10 font-bold uppercase text-white inline-block bg-purple-700'>
               Contato
             </h2>
           </div>
@@ -153,12 +153,12 @@ export default function Home() {
 
           <div className='flex flex-col items-start md:flex-row md:items-center md:justify-between'>
             <div className='flex items-center justify-center mb-2 md:mb-0'>
-              <EnvelopeSimple size={34} color='#5e00ff' />
+              <EnvelopeSimple size={34} color='#7732E6' />
               <p className='text-2xl md:text-3xl break-all text-gray-500 ml-2'>brunonettomac@outlook.com</p>
             </div>
 
             <div className='flex items-center justify-center'>
-              <PhoneCall size={34} color='#5e00ff' />
+              <PhoneCall size={34} color='#7732E6' />
               <p className='text-2xl md:text-3xl text-gray-500 ml-2'>(41) 99269-0420</p>
             </div>
           </div>
@@ -167,7 +167,7 @@ export default function Home() {
             <a
               href='https://www.linkedin.com/in/bruno-netto-77434b187/'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
+              className='bg-purple-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <LinkedinLogo size={34} color='#ffffff' />
             </a>
@@ -175,7 +175,7 @@ export default function Home() {
             <a
               href='https://github.com/nettobruno'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
+              className='bg-purple-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <GithubLogo size={34} color='#ffffff' />
             </a>
@@ -183,7 +183,7 @@ export default function Home() {
             <a
               href='https://twitter.com/brunonettto'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
+              className='bg-purple-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <TwitterLogo size={34} color='#ffffff' />
             </a>
@@ -191,7 +191,7 @@ export default function Home() {
             <a
               href='https://www.instagram.com/netttobruno/'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
+              className='bg-purple-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <InstagramLogo size={34} color='#ffffff' />
             </a>
@@ -199,7 +199,7 @@ export default function Home() {
             <a
               href='https://www.facebook.com/bruno.netto.125/'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
+              className='bg-purple-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <FacebookLogo size={34} color='#ffffff' />
             </a>
@@ -207,7 +207,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='w-full bg-blue-700 text-center p-5'>
+      <div className='w-full bg-purple-700 text-center p-5'>
         <p className='text-2xl text-white'>
           Feito com ❤️ por{' '}
           <a href='https://github.com/nettobruno' target='_blank' className='underline'>

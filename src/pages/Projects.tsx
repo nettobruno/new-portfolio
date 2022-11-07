@@ -30,12 +30,12 @@ export default function Projects() {
       <div className='bg-slate-200 flex items-center justify-center py-20 px-2 md:px-10'>
         <div className='w-full max-w-[1600px]'>
           <div className='flex justify-center mb-10 relative'>
-            <Link to='/' className='absolute -top-20 lg:-top-6 left-0 flex items-center text-2xl text-blue-700 font-bold mt-10 hover:underline'>
-              <ArrowLeft size={32} color="#5e00ff" className="mr-2" />
+            <Link to='/' className='absolute -top-20 lg:-top-6 left-0 flex items-center text-2xl text-purple-700 font-bold mt-10 hover:underline'>
+              <ArrowLeft size={32} color="#7732E6" className="mr-2" />
               voltar
             </Link>
 
-            <h2 className='w-full lg:w-fit text-center text-5xl py-2 px-20 font-bold uppercase text-white inline-block bg-blue-700'>
+            <h2 className='w-full lg:w-fit text-center text-5xl py-2 px-20 font-bold uppercase text-white inline-block bg-purple-700'>
               Mais projetos
             </h2>
           </div>
@@ -163,7 +163,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className='w-full bg-blue-700 text-center p-5'>
+      <div className='w-full bg-purple-700 text-center p-5'>
         <p className='text-2xl text-white'>
           Feito com ❤️ por{' '}
           <a href='https://github.com/nettobruno' target='_blank' className='underline'>

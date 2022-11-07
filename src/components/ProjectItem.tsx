@@ -25,7 +25,7 @@ export default function ProjectItem(props: Props) {
               target='_blank'
               className='bg-white rounded-full p-2 m-4 transition duration-500 ease-in-out hover:scale-125'
             >
-              <GithubLogo size={34} color='#5e00ff' />
+              <GithubLogo size={34} color='#7732E6' />
             </a>
 
             <a
@@ -33,7 +33,7 @@ export default function ProjectItem(props: Props) {
               target='_blank'
               className='bg-white rounded-full p-2 m-4 transition duration-500 ease-in-out hover:scale-125'
             >
-              <Link size={34} color='#5e00ff' />
+              <Link size={34} color='#7732E6' />
             </a>
           </div>
         )}

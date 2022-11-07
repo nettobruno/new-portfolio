@@ -9,8 +9,8 @@ module.exports = {
         sans: 'Montserrat, sans-serif'
       },
       colors: {
-        blue: {
-          700: '#5E00FF',
+        purple: {
+          700: '#7732E6',
         },
         blackOpacity: {
           800: 'rgba(0, 0, 0, .8)'
