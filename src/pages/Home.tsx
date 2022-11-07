@@ -48,15 +48,15 @@ export default function Home() {
             <h3 className='text-3xl lg:text-5xl text-center lg:text-left font-bold uppercase text-gray-600 mb-6'>
               Seja bem vindo(a)
             </h3>
-            <p className='text-2xl lg:text-3xl text-center lg:text-left leading-9 text-gray-500 mb-5'>
+            <p style={{ lineHeight: '3rem' }} className='text-2xl lg:text-3xl text-center lg:text-left text-gray-500 mb-5'>
               Fico feliz que tenha chegado até minha página.
             </p>
-            <p className='text-2xl lg:text-3xl text-center lg:text-left leading-9	text-gray-500 mb-5'>
-              Meu nome é Bruno, tenho 20 anos de idade e uma grande paixão por desenvolvimento. No
+            <p style={{ lineHeight: '3rem' }} className='text-2xl lg:text-3xl text-center lg:text-left	text-gray-500 mb-5'>
+              Meu nome é Bruno, tenho 21 anos de idade e uma grande paixão por desenvolvimento. No
               final de 2019 me formei no curso técnico de Informática para Internet, foi lá que
               entendi o quanto a tecnologia pode ajudar e melhorar a vida das pessoas.
             </p>
-            <p className='text-2xl lg:text-3xl text-center lg:text-left leading-9 text-gray-500 mb-20 md:mb-10'>
+            <p style={{ lineHeight: '3rem' }} className='text-2xl lg:text-3xl text-center lg:text-left text-gray-500 mb-20 md:mb-10'>
               Desde então passo os meus dias estudando para que tenha um bom conhecimento.
             </p>
           </div>
@@ -145,7 +145,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <p className='text-2xl md:text-3xl leading-9 text-gray-500 mb-14'>
+          <p style={{ lineHeight: '3rem' }} className='text-2xl md:text-3xl text-gray-500 mb-14'>
             Que bom que chegou até aqui e conheceu um pouco sobre mim, mas infelizmente eu ainda não
             te conheço e adoraria que isso acontecesse. Abaixo verá algumas forma de me encontrar,
             sinta-se a vontade para entrar em contato.
@@ -154,7 +154,7 @@ export default function Home() {
           <div className='flex flex-col items-start md:flex-row md:items-center md:justify-between'>
             <div className='flex items-center justify-center mb-2 md:mb-0'>
               <EnvelopeSimple size={34} color='#5e00ff' />
-              <p className='text-2xl md:text-3xl text-gray-500 ml-2'>brunonettomac@outlook.com</p>
+              <p className='text-2xl md:text-3xl break-all text-gray-500 ml-2'>brunonettomac@outlook.com</p>
             </div>
 
             <div className='flex items-center justify-center'>
@@ -167,7 +167,7 @@ export default function Home() {
             <a
               href='https://www.linkedin.com/in/bruno-netto-77434b187/'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-4 transition-all hover:scale-125'
+              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <LinkedinLogo size={34} color='#ffffff' />
             </a>
@@ -175,7 +175,7 @@ export default function Home() {
             <a
               href='https://github.com/nettobruno'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-4 transition-all hover:scale-125'
+              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <GithubLogo size={34} color='#ffffff' />
             </a>
@@ -183,7 +183,7 @@ export default function Home() {
             <a
               href='https://twitter.com/brunonettto'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-4 transition-all hover:scale-125'
+              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <TwitterLogo size={34} color='#ffffff' />
             </a>
@@ -191,7 +191,7 @@ export default function Home() {
             <a
               href='https://www.instagram.com/netttobruno/'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-4 transition-all hover:scale-125'
+              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <InstagramLogo size={34} color='#ffffff' />
             </a>
@@ -199,7 +199,7 @@ export default function Home() {
             <a
               href='https://www.facebook.com/bruno.netto.125/'
               target='_blank'
-              className='bg-blue-700 rounded-full p-2 m-4 transition-all hover:scale-125'
+              className='bg-blue-700 rounded-full p-2 m-2 md:m-4 transition-all hover:scale-125'
             >
               <FacebookLogo size={34} color='#ffffff' />
             </a>
